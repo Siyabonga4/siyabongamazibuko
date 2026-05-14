@@ -76,11 +76,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "WorkFlow AI Hub — Email, Meetings & Task Planning" },
       { name: "description", content: "AI-powered productivity assistant: write emails, summarize meetings, and plan your day in seconds." },
-      { property: "og:title", content: "WorkFlow AI Hub" },
-      { property: "og:description", content: "AI-powered productivity assistant for emails, meetings, and tasks." },
+      { property: "og:title", content: "WorkFlow AI Hub — Email, Meetings & Task Planning" },
+      { property: "og:description", content: "AI-powered productivity assistant: write emails, summarize meetings, and plan your day in seconds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "WorkFlow AI Hub — Email, Meetings & Task Planning" },
+      { name: "twitter:description", content: "AI-powered productivity assistant: write emails, summarize meetings, and plan your day in seconds." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/735ed980-c593-4bf8-b0df-ab748f408d5e/id-preview-bfd58ce7--bbc0130e-498b-4a5f-84fd-9386851437f2.lovable.app-1778749727107.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/735ed980-c593-4bf8-b0df-ab748f408d5e/id-preview-bfd58ce7--bbc0130e-498b-4a5f-84fd-9386851437f2.lovable.app-1778749727107.png" },
     ],
     links: [
       {
